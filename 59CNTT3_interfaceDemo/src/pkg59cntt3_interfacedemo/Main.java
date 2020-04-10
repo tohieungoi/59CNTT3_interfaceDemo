@@ -18,6 +18,8 @@ public class Main {
         // TODO code application logic here
         ICaculate caculator = new CasioCaculator();
         System.out.println("4+5 ="+ caculator.cong(4,5));
+        System.out.println("5-4 ="+ caculator.tru(5,4));
+        
     }
     
 }
